@@ -26,7 +26,8 @@ struct LaunchView: View {
                     .onAppear { viewModel.startLoading() }
 
                 Text("Noisy Gradient with simple Reactive Elements")
-                    .font(.system(size: UIScreen.main.bounds.width * 0.05).bold()) // 5% of screen width
+                    .font(.system(size: UIScreen.main.bounds.width * 0.05).bold())// 5% of screen width
+                    .foregroundStyle(.white)
                     .multilineTextAlignment(.center)
                     .shadow(radius: 5, x: 0, y: 1)
             }
