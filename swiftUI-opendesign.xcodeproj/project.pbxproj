@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0413A0492D73653400DE9186 /* swiftUI-opendesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "swiftUI-opendesign.app"; path = "/Users/nilesboyes/Documents/Coding Projects/swiftUI-opendesign/build/Debug-iphoneos/swiftUI-opendesign.app"; sourceTree = "<absolute>"; };
-		0413A0592D73653600DE9186 /* swiftUI-opendesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "swiftUI-opendesignTests.xctest"; path = "/Users/nilesboyes/Documents/Coding Projects/swiftUI-opendesign/build/Debug-iphoneos/swiftUI-opendesign.app/PlugIns/swiftUI-opendesignTests.xctest"; sourceTree = "<absolute>"; };
-		0413A0632D73653600DE9186 /* swiftUI-opendesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "swiftUI-opendesignUITests.xctest"; path = "/Users/nilesboyes/Documents/Coding Projects/swiftUI-opendesign/build/Debug-iphoneos/swiftUI-opendesignUITests-Runner.app/PlugIns/swiftUI-opendesignUITests.xctest"; sourceTree = "<absolute>"; };
+		0498DACE2D775FFC00D0DBCA /* swiftUI-opendesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-opendesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498DACF2D775FFC00D0DBCA /* swiftUI-opendesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftUI-opendesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498DAD02D775FFC00D0DBCA /* swiftUI-opendesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftUI-opendesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -66,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				0413A04B2D73653400DE9186 /* swiftUI-opendesign */,
+				0498DACE2D775FFC00D0DBCA /* swiftUI-opendesign.app */,
+				0498DACF2D775FFC00D0DBCA /* swiftUI-opendesignTests.xctest */,
+				0498DAD02D775FFC00D0DBCA /* swiftUI-opendesignUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +94,7 @@
 			packageProductDependencies = (
 			);
 			productName = "swiftUI-opendesign";
-			productReference = 0413A0492D73653400DE9186 /* swiftUI-opendesign.app */;
+			productReference = 0498DACE2D775FFC00D0DBCA /* swiftUI-opendesign.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0413A0582D73653600DE9186 /* swiftUI-opendesignTests */ = {
@@ -111,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = "swiftUI-opendesignTests";
-			productReference = 0413A0592D73653600DE9186 /* swiftUI-opendesignTests.xctest */;
+			productReference = 0498DACF2D775FFC00D0DBCA /* swiftUI-opendesignTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0413A0622D73653600DE9186 /* swiftUI-opendesignUITests */ = {
@@ -131,7 +134,7 @@
 			packageProductDependencies = (
 			);
 			productName = "swiftUI-opendesignUITests";
-			productReference = 0413A0632D73653600DE9186 /* swiftUI-opendesignUITests.xctest */;
+			productReference = 0498DAD02D775FFC00D0DBCA /* swiftUI-opendesignUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
