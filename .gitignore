@@ -1,0 +1,37 @@
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcodeproj/xcuserdata/*.xcuserdatad
+*.xcodeproj/xcuserdata/*.xcuserstate
+
+# Build
+build/
+DerivedData/
+
+# User-specific files
+*.user
+*.userprefs
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+/.build/
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Other
+*.DS_Store
+*.swp
+*.swo
+*.lock
+*.log
