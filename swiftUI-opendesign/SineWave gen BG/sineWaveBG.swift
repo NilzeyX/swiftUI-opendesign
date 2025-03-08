@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct AuthenticationView: View {
+struct sineWaveBG: View {
     // Track elapsed time for the shader animation
     // @State is a property wrapper that allows SwiftUI to track and manage state changes
     @State private var startTime = Date()
@@ -45,5 +45,5 @@ struct AuthenticationView: View {
 // Preview provider for SwiftUI canvas
 // This allows us to see the view in Xcode's preview canvas
 #Preview {
-    AuthenticationView()
+    sineWaveBG()
 }
