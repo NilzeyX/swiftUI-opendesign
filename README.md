@@ -91,6 +91,22 @@ Contributions are welcome and encouraged! If you have a cool design, animation, 
    - Make it beginner friendly
 5. **Submit a pull request** with a description of your design in as much detail as possible
 
+### Changing old designs
+
+You are welcome to change someone else contribution BUT your PR will not be accepted if it changes the actual Design itself.
+
+1. **Fork** the repository
+2. **Create a new branch** with a relative name e.g. NoisyGradient logic fix
+3. **Fix the bugs or issues** in the directory
+   - Change the logic for better handling
+   - Fix any bugs
+4. **Document your changes**:
+   - Add comments explaining how the fixes work
+   - Include any parameters that can be customized
+   - Explain any dependencies or requirements
+   - Make it beginner friendly
+5. **Submit a pull request** with a description of your changes in as much detail as possible
+
 ### Contribution Guidelines
 
 When contributing, please:
