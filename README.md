@@ -12,30 +12,16 @@ A collaborative collection of beautiful, reusable SwiftUI designs, animations, a
 SwiftUI Open Design Library is a growing collection of beautiful UI designs, animations, and visual effects implemented in SwiftUI. The goal is to create a community-driven repository of reusable components that developers can easily incorporate into their own projects.
 
 Each design in this library is:
+
 - **Self-contained** - Can be used independently
 - **Customizable** - Designed with parameters that can be adjusted
 - **Well-documented** - Includes explanations of how it works
 - **Beginner-friendly** - Includes comments to help new SwiftUI developers understand the implementation
 
-## 📱 Current Designs
-
-### Launch Screens
-- **Noisy Gradient Launch Screen**: A beautiful launch screen with a purple-teal gradient enhanced with subtle noise texture and animated elements.
-
-### Authentication Screens
-- **Sine Wave Animation**: An authentication screen featuring a mesmerizing sine wave animation implemented using Metal shaders.
-
-### Extensions & Utilities
-- **Gradient Extensions**: Pre-built gradient styles with noise effects
-  - `noisyPurpleTeal()`: A purple to teal gradient with customizable noise
-  - `liquidMetalBlue()`: An animated metallic blue gradient with light reflections
-- **Noise Generator**: Utility for adding subtle noise textures to any view
-- **Metal Shaders**: Custom shader implementations for advanced visual effects
-  - `sinewave.metal`: Creates flowing, colorful wave patterns
-
 ## 🚀 Getting Started
 
 ### Requirements
+
 - iOS 16.0+ / macOS 13.0+
 - Swift 5.9+
 - Xcode 15.0+
@@ -43,11 +29,13 @@ Each design in this library is:
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/swiftUI-opendesign.git
 ```
 
 2. Open the project in Xcode:
+
 ```bash
 cd swiftUI-opendesign
 open swiftUI-opendesign.xcodeproj
@@ -65,6 +53,10 @@ Each component is designed to be easily copied into your own projects. Simply:
 
 For example, to use the Noisy Gradient:
 
+Copy folder "NoisyGradient Design" especially the extensions
+Read the original view to get an idea of how it's functioning
+Use the extensions of view model logic relevant to you
+
 ```swift
 import SwiftUI
 
@@ -74,7 +66,7 @@ struct MyView: View {
             // Apply the noisy purple-teal gradient
             LinearGradient.noisyPurpleTeal()
                 .edgesIgnoringSafeArea(.all)
-                
+
             // Your content here
             Text("Hello, World!")
                 .foregroundColor(.white)
@@ -89,20 +81,22 @@ Contributions are welcome and encouraged! If you have a cool design, animation, 
 
 1. **Fork** the repository
 2. **Create a new branch** for your design
-3. **Add your design** in an appropriate directory
-   - Create a new directory if it's a new category
+3. **Add your design** in a NEW directory
+   - Create a new directory with all relevant subfolders
    - Include all necessary files (Swift, Metal shaders, etc.)
 4. **Document your design**:
    - Add comments explaining how the design works
    - Include any parameters that can be customized
    - Explain any dependencies or requirements
-5. **Submit a pull request** with a description of your design
+   - Make it beginner friendly
+5. **Submit a pull request** with a description of your design in as much detail as possible
 
 ### Contribution Guidelines
 
 When contributing, please:
 
-- Ensure your code is well-commented and follows Swift style guidelines
+- Update the bottom of this README.md with acknowledgements if you have used other creators code
+- Ensure your code is well-commented and follows good design practices
 - Include a preview image or GIF of your design if possible
 - Explain the use case or inspiration for your design
 - Mention any performance considerations or limitations
@@ -114,7 +108,7 @@ Each design should follow this structure:
 
 1. **Main View File**: The SwiftUI view that implements the design
 2. **Supporting Files**: Any additional files needed (view models, extensions, etc.)
-3. **README.md**: (Optional) A detailed explanation of the design with usage examples
+3. **README.md**: A detailed explanation of the design with usage examples
 
 ## 📚 Learning Resources
 
@@ -131,7 +125,6 @@ This project is available under the MIT License. See the LICENSE file for more i
 ## 🙏 Acknowledgements
 
 - Special thanks to all contributors who share their designs
-- Inspired by the amazing SwiftUI community
 - Some shader code adapted from [Inferno](https://github.com/twostraws/Inferno) by Paul Hudson
 
 ---
